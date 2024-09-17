@@ -20,13 +20,13 @@ $ conda activate mini-rag
 
 #### Installation
 
-1)Install the required packages
+1) Install the required packages
 
 ``` bash 
 $ pip install -r requirements.txt
 ```
 
-2)Setup the environment variables
+2) Setup the environment variables
 
 ``` bash 
 $ cp .env.example .env
