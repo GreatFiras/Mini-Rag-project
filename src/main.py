@@ -1,8 +1,10 @@
 from fastapi import FastAPI
-from routes import base
+from dotenv import load_dotenv
+load_dotenv('.env')
 
+from routes import base
 app = FastAPI(
-    prefix = '/api/v1' , tags = ['api_v1']
+    # prefix = '/api/v1' , tags = ['api_v1']
 )
 
 @app.include_routes(base.base_router)
