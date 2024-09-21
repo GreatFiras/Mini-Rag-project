@@ -1,5 +1,5 @@
 from enum import Enum
 
-class processingEnum(Enum): 
+class ProcessingEnum(Enum): 
     TXT = '.txt'
     PDF = '.PDF'
