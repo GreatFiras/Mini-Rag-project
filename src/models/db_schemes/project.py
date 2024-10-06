@@ -6,7 +6,7 @@ from bson.objectid import ObjectId
 class Project(BaseModel): 
     
     #objectid is the type of how the mongodb consider the id string in the database; 
-    _id : Optional[ObjectId]
+    id: Optional[ObjectId] = Field(None , alias='_id')
     project_id : str = Field(... , min_length=1)
 
 
